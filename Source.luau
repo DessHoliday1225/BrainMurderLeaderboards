@@ -63,7 +63,7 @@ do
 		return select(2, table.unpack(result))
 	end
 end
-
+-- When testing in Studio we don't want touch real game data
 local IS_STUDIO = RunService:IsStudio()
 -- contains info about all available leaderboards in game
 local leaderboards = {}
